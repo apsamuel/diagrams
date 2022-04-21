@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T16:21:30.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0qUQUF7BGSiy_6XefQmj" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T19:37:16.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="U8b8jHj5urKQAqOSH04h" version="17.4.5" type="github">
   <diagram id="4VKI4w-LecAPys9vRDwE" name="Page-1">
-    <mxGraphModel dx="2493" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2475" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -473,12 +473,6 @@
         <mxCell id="Ge7aqxbjUbuo9fXOc1NT-162" value="Bastion SSH&lt;br&gt;Load Balancer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;rounded=0;sketch=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="1051" y="268.75" width="39" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="Ge7aqxbjUbuo9fXOc1NT-129" value="Issue Debugging &amp; Remediation" style="swimlane;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;fontFamily=Comic Sans MS;fontSize=10;strokeColor=#000000;fillColor=#FF3399;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="440" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="Ge7aqxbjUbuo9fXOc1NT-130" value="Host &amp;amp; Manager will provide 3 new functions&lt;br&gt;&lt;br&gt;- Crash Reports - produce a crash report and write to persistent storage on crash reports. (Noopervisor)&lt;br&gt;- State Dump - dump the application state to persistent storage when manually invoked, or based on &quot;triggering events&quot;&lt;br&gt;- Repl - remote access, debugging, issue resolution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1558" y="470" width="184" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="Ge7aqxbjUbuo9fXOc1NT-79" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1810" y="390" width="460" height="210" as="geometry" />
         </mxCell>
@@ -505,6 +499,15 @@
         </mxCell>
         <mxCell id="Ge7aqxbjUbuo9fXOc1NT-168" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Comic Sans MS;fontSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Ge7aqxbjUbuo9fXOc1NT-78" target="Ge7aqxbjUbuo9fXOc1NT-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge7aqxbjUbuo9fXOc1NT-169" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="800" y="360" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge7aqxbjUbuo9fXOc1NT-129" value="Issue Debugging &amp; Remediation" style="swimlane;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;fontFamily=Comic Sans MS;fontSize=10;strokeColor=#000000;fillColor=#FF3333;" vertex="1" parent="Ge7aqxbjUbuo9fXOc1NT-169">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge7aqxbjUbuo9fXOc1NT-130" value="Host &amp;amp; Manager will provide 3 new functions&lt;br&gt;&lt;br&gt;- Crash Reports - produce a crash report and write to persistent storage on crash reports. (Noopervisor)&lt;br&gt;- State Dump - dump the application state to persistent storage when manually invoked, or based on &quot;triggering events&quot;&lt;br&gt;- Repl - remote access, debugging, issue resolution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="Ge7aqxbjUbuo9fXOc1NT-169">
+          <mxGeometry x="8" y="30" width="184" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
